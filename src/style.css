@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(16, 17, 17, 0.582),
+    rgba(8, 24, 21, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(16, 17, 17, 0.678),
+    rgba(10, 22, 16, 0.863)
   );
 
   --imp-text-color: #3AAFA9;
@@ -154,9 +154,21 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
-.logo {
+/* .logo {
   height: 1.4em !important;
   width: 2.5em !important;
+} */
+.img-fluid.logo {
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold; /* Makes the text bold */
+  color: #213e38; /* Dark gray color */
+  text-align: center; /* Centers the text horizontally */
+  margin: 20px 0; /* Adds some vertical spacing */
+  padding: 10px; /* Adds some padding */
+  background-color: #f8f9fa; /* Light gray background */
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 .navbar-nav .nav-link {
@@ -460,7 +472,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(53, 136, 107, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -555,12 +567,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(137, 230, 201, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(4, 168, 86, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
